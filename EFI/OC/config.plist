@@ -97,6 +97,32 @@
 				<key>TableSignature</key>
 				<data></data>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Name6D-04 to 00</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>Cm0KBA==</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>Replace</key>
+				<data>Cm0KAA==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data></data>
+			</dict>
 		</array>
 		<key>Quirks</key>
 		<dict>
@@ -525,24 +551,6 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>NVMeFix.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/NVMeFix</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
 				<string>VerbStub.kext</string>
 				<key>Comment</key>
 				<string></string>
@@ -637,9 +645,9 @@
 		<key>Scheme</key>
 		<dict>
 			<key>FuzzyMatch</key>
-			<false/>
+			<true/>
 			<key>KernelArch</key>
-			<string>Auto</string>
+			<string>x86_64</string>
 			<key>KernelCache</key>
 			<string>Auto</string>
 		</dict>
@@ -747,11 +755,11 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>brcmfx-country=#a -v</string>
+				<string>brcmfx-country=#a</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
-				<data>ZW4tVVM6MA==</data>
+				<string>it:4</string>
 				<key>run-efi-updater</key>
 				<string>No</string>
 			</dict>
@@ -811,6 +819,37 @@
 		<true/>
 		<key>CustomMemory</key>
 		<false/>
+		<key>DataHub</key>
+		<dict>
+			<key>ARTFrequency</key>
+			<integer>0</integer>
+			<key>BoardProduct</key>
+			<string>Mac-7BA5B2DFE22DDD8C</string>
+			<key>BoardRevision</key>
+			<data>AQ==</data>
+			<key>DevicePathsSupported</key>
+			<integer>0</integer>
+			<key>FSBFrequency</key>
+			<integer>0</integer>
+			<key>InitialTSC</key>
+			<integer>0</integer>
+			<key>PlatformName</key>
+			<string></string>
+			<key>SmcBranch</key>
+			<data></data>
+			<key>SmcPlatform</key>
+			<data>ajE3NAAAAAA=</data>
+			<key>SmcRevision</key>
+			<data></data>
+			<key>StartupPowerEvents</key>
+			<integer>0</integer>
+			<key>SystemProductName</key>
+			<string>Macmini8,1</string>
+			<key>SystemSerialNumber</key>
+			<string>C07XGBYAJYVX</string>
+			<key>SystemUUID</key>
+			<string>8ADAF583-3D58-4E1B-A200-1BCC36A29B25</string>
+		</dict>
 		<key>Generic</key>
 		<dict>
 			<key>AdviseWindows</key>
@@ -831,6 +870,19 @@
 			<string>C07XGBYAJYVX</string>
 			<key>SystemUUID</key>
 			<string>8ADAF583-3D58-4E1B-A200-1BCC36A29B25</string>
+		</dict>
+		<key>PlatformNVRAM</key>
+		<dict>
+			<key>BID</key>
+			<string>Mac-7BA5B2DFE22DDD8C</string>
+			<key>FirmwareFeatures</key>
+			<data>ZvSP/QAAAAA=</data>
+			<key>FirmwareFeaturesMask</key>
+			<data>f//f/wAAAAA=</data>
+			<key>MLB</key>
+			<string>C07839101CDKXPGAD</string>
+			<key>ROM</key>
+			<data>ESIzRFVm</data>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
