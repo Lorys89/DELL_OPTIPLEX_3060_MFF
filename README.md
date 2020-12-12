@@ -54,7 +54,7 @@ EFI for Dell Optiplex 3060 MFF with OpenCore bootloader
 
 ### Post Install:
 
-Open terminal and run install.sh from PostInsall/ComboJackAlc295. After reboot insert jack and appears this image
+Open terminal and run install.sh from PostInsall/ComboJackAlc255. After reboot insert jack and appears this image
 ![jack](./Screenshot/Combojackfix.png)
 
 See [ioreg](./ioregmacbook.ioreg) for more clarification
