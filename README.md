@@ -21,11 +21,12 @@ EFI for Dell Optiplex 3060 MFF with OpenCore bootloader
 
 ![infobigsur](./Screenshot/infomacbigsur.png)
 
-## Peripherals
+## Peripherals & Bench
 
 ![infohack](./Screenshot/hackintooldevice.png)
 ![infodp2](./Screenshot/DpciScreen2.png)
 ![infopci](./Screenshot/PCISEZ.png)
+![bench](./Screenshot/RAM-NVME.png)
 
 ### What works and What doesn't or WIP:
 
