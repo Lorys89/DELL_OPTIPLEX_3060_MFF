@@ -92,9 +92,13 @@ enter and then ctrl + w to save and then alt + q to exit. proceed to check if yo
 
 ![CpuSetup](./TOOLS%20EFI%20MOD/CFG.bmp)
 
-For the DVMT pre all values you have to go to the Setup menu and enter and look for 08DC and set it from 01 to 02 (o2 is for 64MB pre all)and then move then save with ctrl + w and to exit alt + q and you will have the suitable DVMT values to the igpu. 
+For the DVMT pre all values you have to go to the Setup menu and enter and look for 08DC and set it from 01 to 02 (value 02 is for 64MB pre all)and then move then save with ctrl + w and to exit alt + q and you will have the suitable DVMT values to the igpu. 
 
 ![Setup](./TOOLS%20EFI%20MOD/DVMT.bmp)
+
+For unlock the NVME from GEN2 to GEN3 you have to go to the Setup menu and enter and look the photo and set the value from 02 to 03 and then move then save with ctrl + w and to exit alt + q and you will have the NVME Work to GEN3. 
+
+![Setup](./TOOLS%20EFI%20MOD/NVME.bmp)
 
 ## Credits
 
