@@ -60,6 +60,42 @@ Open terminal and run install.sh from PostInsall/ComboJackAlc255. After reboot i
 
 See [ioreg](./ioregMacmini.ioreg) for more clarification
 
+### MacOS bootable USB creation:
+- Read the Dortania guide for creating your USB from Windows or macOS
+- [Guide Dortania](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/) - USB creation
+
+
+## Bios settings
+### Enable :
+* SATA Operation : AHCI
+* Fastboot : Thorough
+* Integrated NIC : Enable
+
+
+### Disable : 
+* Secure Boot
+* Absolute
+* TPM2.0 Security On
+* Intel SGX
+* Enable UEFI Network Stack
+* cfg lock and DVMT and unlock NVME gen3: DO AT YOUR OWN RISK!!! It may brick your laptop.
+
+- [Bios Extract to txt](https://github.com/Lorys89/DELL_OPTIPLEX_3060_MFF/raw/main/TOOLS%20EFI%20MOD/bios%203%203060mff%20085C.txt)
+ 
+Create a usb in FAT with MBR map and put [ru.efi](https://github.com/Lorys89/DELL_OPTIPLEX_3060_MFF/raw/main/TOOLS%20EFI%20MOD/RU.efi) in it 
+then go to the bios, and create an entry with the path of the usb and setting the ru.efi file and the name of 
+your choice startup and then send and finally click apply.
+
+Restart and press f12 among the entries you will have the last created, click any key, then click alt + ì a menu will appear and
+scroll to CpuSetup and click enter, in the new screen go with the arrows on the value 05BE and change it from 01 to 00 and click 
+enter and then ctrl + w to save and then alt + q to exit. proceed to check if your CFG LOCK is unlocked.
+
+![CpuSetup](./TOOLS%20EFI%20MOD/CFG.bmp)
+
+For the DVMT pre all values you have to go to the Setup menu and enter and look for 08DC and set it from 01 to 02 (o2 is for 64MB pre all)and then move then save with ctrl + w and to exit alt + q and you will have the suitable DVMT values to the igpu. 
+
+![Setup](./TOOLS%20EFI%20MOD/DVMT.bmp)
+
 ## Credits
 
 - [Apple](https://apple.com) for macOS;
