@@ -29,6 +29,7 @@ EFI for Dell Optiplex 3060 MFF with OpenCore bootloader
 ![infodp2](./Screenshot/DpciScreen2.png)
 ![infopci](./Screenshot/PCISEZ.png)
 ![Fan&Temp](./Screenshot/fantemp.png)
+![Speedtest](./Screenshot/speedtest.png)
 ![bench](./Screenshot/RAM-NVME.png)
 ![CPU](./Screenshot/cpu.png)
 ![OPENCL](./Screenshot/opencl.png)
