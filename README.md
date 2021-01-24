@@ -34,6 +34,7 @@ EFI for Dell Optiplex 3060 MFF with OpenCore bootloader
 ![CPU](./Screenshot/cpu.png)
 ![OPENCL](./Screenshot/opencl.png)
 ![METAL](./Screenshot/metal.png)
+![videoproc](./Screenshot/videoproc.png)
 
 
 ### What works and What doesn't or WIP:
