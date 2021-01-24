@@ -40,6 +40,7 @@ EFI for Dell Optiplex 3060 MFF with OpenCore bootloader
 ### What works and What doesn't or WIP:
 
 - [x] Intel UHD 630 iGPU HDMI/DP Output
+- [x] Intel UHD 630 iGPU - H264 & HEVC
 - [x] ALC255 Internal Speakers
 - [x] ALC255 Native Combojack headphones
 - [x] ALC255 Combojack microphone
