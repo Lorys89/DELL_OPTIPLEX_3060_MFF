@@ -282,7 +282,7 @@
 				<data>AQAAAA==</data>
 				<key>AAPL,ig-platform-id</key>
 				<data>BwCbPg==</data>
-				<key>AAPL,slot-name</key>
+				<key>#AAPL,slot-name</key>
 				<string>Built In</string>
 				<key>device-id</key>
 				<data>mz4AAA==</data>
