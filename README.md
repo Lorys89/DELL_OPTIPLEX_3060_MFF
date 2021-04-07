@@ -32,7 +32,6 @@ EFI for Dell Optiplex 3060 MFF with OpenCore bootloader
 
 ![infohack](./Screenshot/hackintooldevice.png)
 ![infodp2](./Screenshot/DpciScreen2.png)
-![infopci](./Screenshot/PCISEZ.png)
 ![Fan&Temp](./Screenshot/fantemp.png)
 ![Speedtest](./Screenshot/speedtest.png)
 ![bench](./Screenshot/RAM-NVME.png)
@@ -67,7 +66,6 @@ EFI for Dell Optiplex 3060 MFF with OpenCore bootloader
 ### Special Config:
 
 - Usb port mapping performed
-- Applied cosmetics pci-dev
 
 ### Post Install:
 
