@@ -5,20 +5,20 @@
  * 
  * Disassembling to symbolic ASL+ operators
  *
- * Disassembly of iASLQLvd6S.aml, Wed Jan 20 18:41:42 2021
+ * Disassembly of iASLk6oOJF.aml, Wed Apr  7 15:48:42 2021
  *
  * Original Table Header:
  *     Signature        "SSDT"
  *     Length           0x00000224 (548)
  *     Revision         0x02
- *     Checksum         0x06
+ *     Checksum         0x40
  *     OEM ID           "HACK"
- *     OEM Table ID     "Devil66"
+ *     OEM Table ID     "DELL"
  *     OEM Revision     0x00000000 (0)
  *     Compiler ID      "INTL"
- *     Compiler Version 0x20200528 (538969384)
+ *     Compiler Version 0x20200925 (538970405)
  */
-DefinitionBlock ("", "SSDT", 2, "HACK", "Devil66", 0x00000000)
+DefinitionBlock ("", "SSDT", 2, "HACK", "DELL", 0x00000000)
 {
     External (_SB_.PCI0, DeviceObj)
     External (_SB_.PCI0.LPCB, DeviceObj)
