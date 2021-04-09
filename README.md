@@ -20,7 +20,7 @@ EFI for Dell Optiplex 3060 MFF with OpenCore bootloader
 | Lan              | Realtek 8168                       |
 | Audio            | Realtek ALC255                     |
 | Ram              | 32 GB DDR4 2400 Mhz                |
-| Wifi + Bluetooth | BCM943602BAED (DW1830)             |
+| Wifi + Bluetooth | BCM94352Z (DW1560)                 |
 | NVMe             | SAMSUNG 970 EVO PLUS 500 GB (MACOS)|
 | SSD              | SAMSUNG 850 EVO 500 GB (WINDOWS)   |
 | SmBios           | MacMini 8,1                        |
@@ -55,7 +55,7 @@ EFI for Dell Optiplex 3060 MFF with OpenCore bootloader
 - [x] All USB Ports 
 - [x] SpeedStep / Sleep / Wake
 - [x] HID Key PWRB & SLPB 
-- [x] Wi-Fi and Bluetooth BCM943602BAED (DW1830) Module
+- [x] Wi-Fi and Bluetooth BCM94352Z (DW1560) Module
 - [x] CONTROLLER NVME PciE Gen3x4
 - [x] CONTROLLER SATA III
 - [x] All Sensors (CPU, BATTERY, NVME, SATA, FAN)
