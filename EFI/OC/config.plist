@@ -153,7 +153,7 @@
 			<key>ForceExitBootServices</key>
 			<false/>
 			<key>ProtectMemoryRegions</key>
-			<true/>
+			<false/>
 			<key>ProtectSecureBoot</key>
 			<false/>
 			<key>ProtectUefiServices</key>
@@ -196,8 +196,6 @@
 				<data>BwCbPg==</data>
 				<key>device-id</key>
 				<data>mz4AAA==</data>
-				<key>device_type</key>
-				<string>VGA compatible controller</string>
 				<key>disable-agdc</key>
 				<data>AAAAAA==</data>
 				<key>enable-hdmi-dividers-fix</key>
@@ -224,7 +222,7 @@
 				<data>AQAAAA==</data>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
-				<key>igfxfw</key>
+				<key>#igfxfw</key>
 				<data>AgAAAA==</data>
 				<key>model</key>
 				<string>Intel UHD Graphics 630</string>
@@ -687,7 +685,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string> -v</string>
+				<string>-v</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -806,17 +804,17 @@
 		<key>AppleInput</key>
 		<dict>
 			<key>AppleEvent</key>
-			<string>Auto</string>
+			<string>Builtin</string>
 			<key>CustomDelays</key>
 			<string>Auto</string>
 			<key>KeyInitialDelay</key>
 			<integer>0</integer>
 			<key>KeySubsequentDelay</key>
-			<integer>1</integer>
+			<integer>5</integer>
 			<key>PointerSpeedDiv</key>
 			<integer>1</integer>
 			<key>PointerSpeedMul</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<key>Audio</key>
 		<dict>
