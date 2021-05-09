@@ -24,8 +24,8 @@ EFI for Dell Optiplex 3060 MFF with OpenCore bootloader
 | NVMe             | SAMSUNG 970 EVO PLUS 250 GB (MACOS)|
 | SSD              | SAMSUNG 850 EVO 500 GB (WINDOWS)   |
 | SmBios           | MacMini 8,1                        |
-| BootLoader       | OpenCore 0.6.8                     |
-| macOS            | Big Sur 11.3 (Beta 6)              |
+| BootLoader       | OpenCore 0.6.9                     |
+| macOS            | Big Sur 11.4 Beta 2                |
 
 
 ![infomac](./Screenshot/infomac.png)
@@ -58,7 +58,7 @@ EFI for Dell Optiplex 3060 MFF with OpenCore bootloader
 - [x] Wi-Fi and Bluetooth BCM94352Z (DW1560) Module
 - [x] CONTROLLER NVME PciE Gen3x4
 - [x] CONTROLLER SATA III
-- [x] All Sensors (CPU, BATTERY, NVME, SATA, FAN)
+- [x] All Sensors (CPU, NVME, SATA, FAN)
 - [x] Realtek RTL8168 LAN
 - [x] NVRAM
 - [x] Windows 10 boot from OpenCore
