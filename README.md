@@ -25,9 +25,11 @@ EFI for Dell Optiplex 3060 MFF with OpenCore bootloader
 | SSD              | SAMSUNG 850 EVO 500 GB (WINDOWS)   |
 | SmBios           | MacMini 8,1                        |
 | BootLoader       | OpenCore 0.6.9                     |
-| macOS            | Big Sur 11.4 Beta 2                |
+| macOS            | Big Sur 11.5                       |
+| macOS            | Monterey 12.0 (Beta 1)             |
 
 
+![infomonterey](./Screenshot/infomonterey.png)
 ![infomac](./Screenshot/infomac.png)
 
 ## Peripherals & Bench
