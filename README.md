@@ -24,12 +24,10 @@ EFI for Dell Optiplex 3060 MFF with OpenCore bootloader
 | NVMe             | SAMSUNG 970 EVO PLUS 250 GB (MACOS)|
 | SSD              | SAMSUNG 850 EVO 500 GB (WINDOWS)   |
 | SmBios           | MacMini 8,1                        |
-| BootLoader       | OpenCore 0.7.0                     |
-| macOS            | Big Sur 11.5                       |
-| macOS            | Monterey 12.0 (Beta 1)             |
+| BootLoader       | OpenCore 0.7.5                     |
+| macOS            | Monterey 12.1 Beta                 |
 
 
-![infomonterey](./Screenshot/infomonterey.png)
 ![infomac](./Screenshot/infomac.png)
 
 ## Peripherals & Bench
@@ -63,7 +61,7 @@ EFI for Dell Optiplex 3060 MFF with OpenCore bootloader
 - [x] All Sensors (CPU, NVME, SATA, FAN)
 - [x] Realtek RTL8168 LAN
 - [x] NVRAM
-- [x] Windows 10 boot from OpenCore
+- [x] Windows 11 boot from OpenCore
 
 
 
@@ -93,7 +91,6 @@ See [ioreg](./ioregMacmini.ioreg) for more clarification
 ### Disable : 
 * Secure Boot
 * Absolute
-* TPM2.0 Security On
 * Intel SGX
 * Enable UEFI Network Stack
 * cfg lock and DVMT and unlock NVME gen3: DO AT YOUR OWN RISK!!! It may brick your laptop.
