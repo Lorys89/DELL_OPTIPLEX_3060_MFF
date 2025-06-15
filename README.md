@@ -15,13 +15,13 @@ EFI for Dell Optiplex 3060 MFF with OpenCore bootloader
 | iGPU             | Intel® UHD Graphics 630            |
 | Lan              | Realtek 8168                       |
 | Audio            | Realtek ALC255                     |
-| Ram              | 32 GB DDR4 2400 Mhz                |
-| Wifi + Bluetooth | BCM94352Z (DW1560)                 |
+| Ram              | 16 GB DDR4 2400 Mhz                |
+| Wifi + Bluetooth | INTEL AC 9560                      |
 | NVMe             | SAMSUNG 970 EVO PLUS 250 GB (MACOS)|
-| SSD              | SAMSUNG 850 EVO 500 GB (WINDOWS)   |
-| SmBios           | MacMini 8,1                        |
-| BootLoader       | OpenCore 0.7.5                     |
-| macOS            | Monterey 12.1 Beta                 |
+| SSD              | SAMSUNG 850 EVO 500 GB (DATI)      |
+| SmBios           | MacPro 7,1                         |
+| BootLoader       | OpenCore 1.0.5                     |
+| macOS            | Tahoe 26.0 Beta                    |
 
 
 ![infomac](./Screenshot/infomac.png)
